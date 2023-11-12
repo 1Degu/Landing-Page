@@ -15,3 +15,31 @@ height: 50px;
     
 
 }
+#infSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#infContent {
+    display: flex;
+    
+}
+
+.liContetn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 150px;
+}
+
+.infSecParagraph {
+    text-align: center;
+}
+
+.infSecImgContainer {
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+}
