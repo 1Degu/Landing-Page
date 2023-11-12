@@ -1,4 +1,11 @@
 #header {
     display: flex;
-justify-content: space-between;
+    align-items: center;
+justify-content: space-around;
+background-color: #1F2937;
+color:#f9faf8;
+height: 50px;
+}
+.Htextmargin {
+    margin:25px 25px;
 }
