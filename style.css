@@ -1,24 +1,80 @@
+
+.backgroundColor{
+background-color: #1F2937;
+}
+
 #header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-justify-content: space-around;
+    max-width: 900px;
 background-color: #1F2937;
 color:#f9faf8;
-height: 50px;
 }
+.Hlink {
+    text-decoration: none;
+color: white;
+}
+#midLink {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#headerLogo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+#linkContainer {
+padding-right: 40px;
+}
+#logo {
+    padding-left: 40px;
+}
+ 
 #heroContainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
-    height: 300px;
-    
-
+    max-width: 900px;
+    min-height: 300px;
+    }
+#heroText {
+    padding-left: 40px;
 }
+    #heroImage {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    #heroMainText {
+        font-size: 48px;
+        font-weight: 800;
+        color: #F9FAF8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #secondText {
+        font-size: 18px;
+        color: #E5E7EB;
+        margin-top: 0px;
+    }
+
+    #singUpbutton {
+        background-color: #3882F6;
+        
+    color: white;
+    max-height: 40px;
+    border:1px solid #3882F6;
+    border-radius: 3px;
+    padding:2px 10px;
+    }
+
 #infSection {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 900px;
 
 }
 #infContent {
@@ -39,9 +95,10 @@ height: 50px;
 }
 
 .infSecImgContainer {
+    border-radius: 18px;
     width: 150px;
     height: 150px;
-    border: 5px solid blue;
+    border: 5px solid #3882F6;
 }
 
 #text {
@@ -50,12 +107,14 @@ height: 50px;
     align-items: center;
 }
 #citationSection {
-    height: 300px;
 background-color:#E5E7EB;
 }
 
 #citation {
-    max-width: 500px;
+    max-width: 800px;
+    font-size:36px;
+    font-style:italic;
+    color: #1F2937;
 }
 
 #footer {
@@ -65,4 +124,41 @@ background-color:#E5E7EB;
     height: 50px;
     background-color:#1F2937;
     color: #f9faf8;
+}
+#bottomSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#SingUpbuttonbBottomContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #E5E7EB;
+border-radius: 10px;
+width: 90%;
+height: 100px;
+border: 5px solid #3882F6;
+padding: 0px 40px;
+}
+
+
+#SingUpbuttonbBottom {
+    background-color: #3882F6;
+    color: white;
+    max-height: 40px;
+    border:1px solid white;
+    border-radius: 3px;
+    padding:2px 10px;
+}
+
+#call {
+    margin-bottom: 0px;
+}
+#bottomText {
+margin-top: 0px;
 }

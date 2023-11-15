@@ -7,44 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <Div class="backgroundColor">
     <header id="header">
         <div>
-            <img src="#" alt="Logo" id="logo">
+            <p id="logo">Header Logo </p>
         </div>
-        <div id="link-container">
-            <a class="HtextMargin" href="#link1" class="header-link">Header link one</a>
-            <a class="HtextMargin" href="#link2" class="header-link">Header link two</a>
-            <a class="HtextMargin" href="#link3" class="header-link">Header link tree</a>
+        <div id="linkContainer">
+            <a class="Hlink" href="#link1" class="header-link">Header link one</a>
+            <a class="Hlink" id="midLink" href="#link2" class="header-link">Header link two</a>
+            <a class="Hlink" href="#link3" class="header-link">Header link tree</a>
         </div>
     </header>
+</div>
+<div class="backgroundColor">
     <hero id="heroContainer">
-        <div>
-            <h1>This website is awesome</h1>
-            <p> This website has some subtext that goes here under the main title. Its smaller font and the color is lower contrast</p>
-            <button id="SingUpbutton">Button</button>
+        <div id="heroText">
+            <p id="heroMainText">This website is awesome</p>
+            <p id="secondText"> This website has some subtext that goes here under the main title. Its smaller font and the color is lower contrast</p>
+            <button id="singUpbutton">SingUp</button>
         </div>
         <div>
-            <img src="#" alt="heroImage" id="heroImage">
+            <img src="https://fastly.picsum.photos/id/878/400/200.jpg?hmac=QXU91--GixbEvr5b2HU7wqeojBbU-Zkhng-XHfVo5uA" alt="heroImage" id="heroImage">
         </div>
     </hero>
+</div>
     <informacion id="infSection">
 <h1 id="infSecHeader">Some random information.</h1>
 <ul id="infContent">
     <li class="liContetn">
         <img class="infSecImgContainer" src="" alt="Image" id="infSecImage">
-        <p class="infSecParagraph">this is some subtext under an iliustration</p>
+        <p class="infSecParagraph">this is some subtext under an iliustration or image</p>
     </li>
     <li class="liContetn">
         <img class="infSecImgContainer" src="" alt="Image" id="infSecImage">
-        <p class="infSecParagraph">this is some subtext under an iliustration</p>
+        <p class="infSecParagraph">this is some subtext under an iliustration or image</p>
     </li>
     <li class="liContetn">
         <img class="infSecImgContainer" src="" alt="Image" id="infSecImage">
-        <p class="infSecParagraph">this is some subtext under an iliustration</p>
+        <p class="infSecParagraph">this is some subtext under an iliustration or image</p>
     </li>
     <li class="liContetn">
         <img class="infSecImgContainer" src="" alt="Image" id="infSecImage">
-        <p class="infSecParagraph">this is some subtext under an iliustration</p>
+        <p class="infSecParagraph">this is some subtext under an iliustration or image</p>
     </li>
 </ul>
     </informacion>
@@ -54,9 +58,14 @@
          <p id="quate"> -Thor, God of Thunder</p>
         </div>
     </section>
-    <div>
-        <div>
-            <button id="SingUpbuttonbBottom">Button</button>
+    <div id="bottomSection">
+        
+        <div id="SingUpbuttonbBottomContainer">
+            <div>
+                <h3 id="call">Call to action! It's time!</h3>
+                <p id="bottomText"> Sing up for our product by clicking that eight over there</p>
+            </div>
+            <button id="SingUpbuttonbBottom">Sing up</button>
         </div>
 
 
